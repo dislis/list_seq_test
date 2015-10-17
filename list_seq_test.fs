@@ -5,7 +5,7 @@ open System
 let gold = (1.0 + Math.Sqrt(5.0) )/ 2.0
 
 let getnumoftimes :int =   
-    Console.Write("Give numper of values")    
+    Console.Write("Give numper of values ")    
     let couldparse , numofvalues=Int32.TryParse(Console.ReadLine())   
     if couldparse then        
         numofvalues   
